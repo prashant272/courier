@@ -13,7 +13,7 @@ const About = () => {
         { icon: Zap, title: "Express Speed", desc: "Same-day pickup and next-day delivery for domestic shipments across India." },
         { icon: ShieldCheck, title: "Secure Handling", desc: "Every parcel is tracked, insured, and handled with the utmost care and professionalism." },
         { icon: Globe, title: "Global Reach", desc: "Authorized partner of DTDC, DHL, FedEx, UPS & Aramex covering 220+ countries worldwide." },
-        { icon: Award, title: "Elite Service", desc: "Premium concierge logistics for businesses and individuals who demand excellence." },
+        { icon: Award, title: "Trusted Service", desc: "Top-rated logistics for businesses and individuals who demand reliability." },
         { icon: Users, title: "Trusted Network", desc: "Serving 5000+ customers daily with a 4.9-star satisfaction rating." },
         { icon: Truck, title: "End-to-End", desc: "Pickup, transit, tracking, and doorstep delivery — fully managed by our expert team." },
     ];
@@ -35,7 +35,7 @@ const About = () => {
                         About <span className="text-gold italic">Dev Raj Express</span>
                     </h1>
                     <p className="text-white/60 max-w-2xl mx-auto text-lg font-light">
-                        India's premium authorized logistics partner — delivering trust across borders.
+                        India's authorized logistics partner — delivering trust across borders.
                     </p>
                     <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mt-8" />
                 </div>
@@ -57,13 +57,13 @@ const About = () => {
                     <div>
                         <span className="text-gold text-xs font-bold tracking-[0.3em] uppercase block mb-4">Who We Are</span>
                         <h2 className="text-4xl md:text-5xl font-display text-white mb-8 leading-tight">
-                            Greater Noida's <span className="text-gold italic">Elite</span> Courier Hub
+                            Dwarka's <span className="text-gold italic">Trusted</span> Courier Hub
                         </h2>
                         <p className="text-white/70 leading-relaxed mb-6 font-light text-lg">
-                            Dev Raj Express is an authorized multi-brand logistics franchise located in Greater Noida West, Uttar Pradesh. We are the official partners of <strong className="text-white">DTDC, DHL, FedEx, UPS, Aramex, TNT, and DPD</strong> — bringing global-grade shipping services to your doorstep.
+                            Dev Raj Express is an authorized multi-brand logistics franchise located in Dwarka, Delhi. We are the official partners of <strong className="text-white">DTDC, DHL, FedEx, UPS, Aramex, TNT, and DPD</strong> — bringing global-grade shipping services to your doorstep.
                         </p>
                         <p className="text-white/70 leading-relaxed font-light">
-                            Founded with a vision to make premium international and domestic logistics accessible and affordable, we serve businesses, e-commerce sellers, and individuals who need reliable, fast, and secure courier services every single day.
+                            Founded with a vision to make international and domestic logistics accessible and affordable, we serve businesses, e-commerce sellers, and individuals who need reliable, fast, and secure courier services every single day.
                         </p>
                         <div className="mt-8 p-6 border-l-4 border-gold bg-gold/5 rounded-r-xl">
                             <p className="text-white/80 italic font-light">
@@ -108,10 +108,10 @@ const About = () => {
                     <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
                     <span className="text-gold text-xs font-bold tracking-[0.3em] uppercase block mb-6">Our Vision</span>
                     <h2 className="text-3xl md:text-5xl font-display text-white mb-8 leading-tight max-w-3xl mx-auto">
-                        "To be India's most trusted premium courier access point — connecting every business to the world."
+                        "To be India's most trusted courier access point — connecting every business to the world."
                     </h2>
                     <p className="text-white/60 text-lg font-light max-w-2xl mx-auto">
-                        At Dev Raj Express, every shipment carries our commitment to precision, speed, and elite customer service.
+                        At Dev Raj Express, every shipment carries our commitment to precision, speed, and reliable customer service.
                     </p>
                 </section>
             </div>

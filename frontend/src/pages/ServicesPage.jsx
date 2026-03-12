@@ -114,14 +114,14 @@ const ServicesPage = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-dark-900/60 to-dark-900" />
                 <div className="relative container mx-auto px-6 py-20 text-center">
                     <span className="text-gold text-xs font-bold tracking-[0.4em] uppercase block mb-4">
-                        Elite Solutions
+                        Trusted Solutions
                     </span>
                     <h1 className="text-5xl md:text-7xl font-display text-white mb-6 leading-tight">
-                        Our Premium<br />
-                        <span className="text-gold italic">Logistics Services</span>
+                        Best Logistics &<br />
+                        <span className="text-gold italic">Courier Services in Dwarka</span>
                     </h1>
                     <p className="text-white/60 max-w-3xl mx-auto text-lg font-light leading-relaxed mb-10">
-                        Authorized partners of <span className="text-gold font-bold">DTDC, DHL, FedEx, UPS, Aramex, TNT & DPD</span> — connecting Najafgarh to the world with precision, speed, and absolute reliability.
+                        Authorized partners of <span className="text-gold font-bold">DTDC, DHL, FedEx, UPS, Aramex, TNT & DPD</span> — connecting Dwarka to the world with precision, speed, and absolute reliability.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <a href="tel:+918851205871" className="px-8 py-4 bg-gold text-black font-black uppercase tracking-widest hover:bg-white transition-all transform hover:scale-105 rounded-xl flex items-center gap-2">
@@ -301,11 +301,9 @@ const ServicesPage = () => {
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
                     <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
                     <span className="text-gold text-xs font-bold tracking-[0.4em] uppercase block mb-4">Get Started Today</span>
-                    <h2 className="text-3xl md:text-5xl font-display text-white mb-6">
-                        Ready to Ship <span className="text-gold italic">Elite?</span>
-                    </h2>
+                        Ready to Ship <span className="text-gold italic">with Us?</span>
                     <p className="text-white/60 max-w-2xl mx-auto mb-10 font-light">
-                        Call us, WhatsApp us, or walk into our branch at Najafgarh. Our team is available 6 days a week to help you find the best carrier and rate for your shipment.
+                        Call us, WhatsApp us, or walk into our branch at Dwarka. Our team is available 6 days a week to help you find the best carrier and rate for your shipment.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <a href="tel:+918851205871" className="px-10 py-4 bg-gold text-black font-black uppercase tracking-widest hover:bg-white transition-all rounded-xl flex items-center gap-2 transform hover:scale-105">

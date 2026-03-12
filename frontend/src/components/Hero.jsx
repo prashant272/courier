@@ -62,13 +62,13 @@ const Hero = () => {
                         <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/20 mb-8 backdrop-blur-md">
                             <span className="w-2 h-2 rounded-full bg-gold animate-pulse"></span>
                             <span className="text-gold text-[10px] md:text-xs font-bold uppercase tracking-[0.3em]">
-                                Global Elite Logistics Network
+                                Global Trusted Logistics Network
                             </span>
                         </div>
 
                         <h1 className="text-5xl md:text-6xl lg:text-7xl font-display text-white mb-8 leading-[1.1] drop-shadow-2xl">
-                            India’s Fastest & <br />
-                            <span className="text-gold-gradient italic">Reliable Network</span>
+                            Best Courier Service <br />
+                            <span className="text-gold-gradient italic">in Dwarka, Delhi</span>
                         </h1>
 
                         <p className="text-white/80 text-lg md:text-xl mb-12 font-light tracking-widest uppercase leading-relaxed max-w-2xl">
@@ -80,7 +80,7 @@ const Hero = () => {
                                 onClick={() => navigate('/pickup')}
                                 className="px-8 md:px-10 py-4 md:py-5 bg-gold text-black font-bold uppercase tracking-[0.2em] hover:bg-white transition-all transform hover:scale-105 flex items-center gap-3 shadow-2xl shadow-gold/40 rounded-xl text-sm md:text-base"
                             >
-                                📦 Book Elite Pickup
+                                📦 Book Your Pickup
                             </button>
                             <button
                                 onClick={() => navigate('/services')}
