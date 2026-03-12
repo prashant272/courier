@@ -106,11 +106,32 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-gray-500 text-xs">
+                <div className="pt-8 border-t border-white/5 grid grid-cols-1 md:grid-cols-3 items-center gap-8">
+                    {/* Copyright - Left */}
+                    <p className="text-gray-500 text-xs text-center md:text-left order-2 md:order-1">
                         © {new Date().getFullYear()} Dev Raj Express. Elite Logistics Partner - Authorized DTDC Franchise.
                     </p>
-                    <div className="flex gap-6">
+
+                    {/* Developer Badge - Center */}
+                    <div className="flex justify-center order-1 md:order-2">
+                        <a 
+                            href="https://primeimpact.in" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="group relative p-[1px] rounded-lg overflow-hidden transition-all duration-300 hover:scale-105 shadow-[0_0_20px_rgba(212,175,55,0.15)]"
+                        >
+                            <div className="absolute inset-x-[-50%] inset-y-0 bg-gradient-to-r from-transparent via-gold/50 to-transparent animate-[marquee_3s_linear_infinite] bg-[length:200%_auto]"></div>
+                            <div className="relative bg-dark-900 px-6 py-2.5 rounded-[7px] flex flex-col items-center">
+                                <span className="text-[7px] text-white/40 font-bold uppercase tracking-[0.4em] leading-none mb-1">Designed & Developed By</span>
+                                <span className="text-xs text-gold font-black uppercase tracking-[0.2em] group-hover:text-white transition-colors">
+                                    Prime Impact IT Solutions
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    {/* Policy Links - Right */}
+                    <div className="flex flex-wrap justify-center md:justify-end gap-6 order-3">
                         <Link to="/privacy" className="text-gray-500 hover:text-white text-[10px] uppercase tracking-widest font-bold">Privacy Policy</Link>
                         <Link to="/terms" className="text-gray-500 hover:text-white text-[10px] uppercase tracking-widest font-bold">Terms & Conditions</Link>
                         <Link to="/refund" className="text-gray-500 hover:text-white text-[10px] uppercase tracking-widest font-bold">Refund Policy</Link>
